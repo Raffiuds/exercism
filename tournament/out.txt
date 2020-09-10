@@ -1,0 +1,10 @@
+=== RUN   TestTallyHappy
+2020/09/09 22:14:09 record on line 5: wrong number of fields
+    tournament_test.go:116: Tally for input named "ignore comments and newlines" returned error "record on line 5: wrong number of fields". Error not expected.
+--- FAIL: TestTallyHappy (0.00s)
+=== RUN   TestTallyError
+    tournament_test.go:132: Tally for input "Bla;Bla;Bla" should have failed but didn't.
+--- FAIL: TestTallyError (0.00s)
+FAIL
+exit status 1
+FAIL	tournament	0.002s
